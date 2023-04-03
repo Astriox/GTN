@@ -1,3 +1,4 @@
+import os
 import logging
 import logging.config
 
@@ -47,6 +48,7 @@ class Bot(Client):
         await super().stop()
         logging.info("Bot stopped. Bye.")
 
-
+    
 app = Bot()
 app.run()
+print(os.getcwd())
