@@ -9,4 +9,4 @@ fi
 cd /GTN
 pip3 install -U -r requirements.txt
 echo "Starting 𝘋𝘒_𝘉𝘖𝘛𝘹...."
-python3 bot.py
+python3 sam.py
